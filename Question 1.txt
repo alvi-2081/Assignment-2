@@ -1,0 +1,86 @@
+OPERATORS IN DART:
+
+There are three types og operators in dart.
+1) Arithmetic Operators
+2) Equality and Relational Operators
+3) Logical Operators
+
+1) ARITHMETIC OPERATORS:
+
+var a = 22;
+var b = 10;
+
++Addition, Use to add two operands.
+	var c = a + b;
+	print(c);
+32
+
+–Subtraction, Use to subtract two operands.
+	var c = a - b;
+	print(c);
+12
+
+*Multiply, Use to multiply two operands.
+	var c = a * b;
+	print(c);
+220
+
+/Division, Use to divide two operands.
+	var c = a / b; 
+	print(c);
+2.2
+
+~/Division, Use two divide two operands but give output in integer.
+	var c = a ~/ b;
+	print(c);
+2
+
+%Modulus, Use to give remainder of two operands.
+	var c = a % b;
+	print(c);
+2
+
+2) EQUALITY AND RELATIONAL OPERATORS:
+
+> Greater than, Check which operand is bigger and give result as boolean expression.
+	a > b;
+True
+		
+< Less than, Check which operand is smaller and give result as boolean expression.
+	a < b;
+False
+
+>= Greater than or equal to, Check which operand is greater or equal to each other and give result as boolean expression.
+	a >= b;
+True
+
+<= less than equal to, Check which operand is less than or equal to each other and give result as boolean expression.
+	a <= b;
+False
+
+== Equal to, Check whether the operand are equal to each other or not and give result as boolean expression.
+	a == b;
+False
+
+!= Not Equal to, Check whether the operand are not equal to each other or not and give result as boolean expression.
+	a != b;
+True
+
+3) LOGICAL OPERATORS:
+
+&& And Operator, Use to add two conditions and if both are true than it will return true.
+	bool c = a > 10 && b < 10;
+	print(c);
+False
+    
+
+|| Or Operator, Use to add two conditions and if even one of them is true than it will return true.
+	bool d = a > 10 || b < 10;
+	print(d);
+True
+
+
+! Not Operator, It is use to reverse the result.
+	bool e = !(a > 10);
+	print(e);
+False

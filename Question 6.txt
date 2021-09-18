@@ -1,0 +1,92 @@
+List of All data types in DART:
+
+Numbers – int, double, num
+String
+Boolean
+List
+Map
+
+1 . NUMBERS:
+a. int : Integer is a type of non fractional number value without. 
+    Here non fractional means a value without point. Integer dose not support POINT 
+    values. It can only hold pure numeric values. See the example below.
+
+int tempNum = 123456;
+print(tempNum);
+// Output should be : 123456
+
+b. double : Double are basically bigger type of FLOAT values. It can hold fractional
+    decimal values. In dart the double support 64 bit double prescription values. 
+    double also represents floating point literals.
+
+ double i = 52.11 ;
+ print(i);
+ // Output should be 52.11
+
+c. num : Num can be an integer or a decimal value both can be a num.
+
+ num i = 44.11 ;
+ print(i);
+ // Output should be 44.11
+
+2 . STRING:
+    String data type represents a sequence of multiple characters text also known as group
+    of multiple characters. In Dart string is sequence of UTF-16 code units. 
+    String can be created using both single quotes and double quotes but both should 
+    be same a creation time.
+
+String name1 = 'Flutter';
+String name2 = "Examples";
+print(name1 + ' ' +name2);
+// Output should be Flutter Examples
+
+3 . BOOLEAN :
+    Boolean data type is used to hold true and false values. Boolean data type uses the 
+    ‘bool‘ keyword on declaration time.
+
+bool val1 = true;
+bool val2 = false;
+print(val1);
+print (val2);
+// Output should be true & false
+
+4 . LIST : 
+    List is a group of multiple data with same data type like a collection box. 
+    We could say List is like an Array to hold same type of multiple values. 
+    The store in ordered sequence in List and Like array every single ITEM of List 
+    can be accessed via its index number.
+
+ List<int> rollNum = List(6);
+  rollNum[0] = 1;  
+  rollNum[1] = 2;
+  rollNum[2] = 3;
+  rollNum[3] = 4;
+  rollNum[4] = 5;
+  rollNum[5] = 6;
+
+  for (int elements in rollNum) {
+    print(elements);
+  }
+
+// Output should be :
+1
+2
+3
+4
+5
+6
+
+5 . MAP:
+    Same as List data type Map data type is also a type of group of multiple values. 
+    In Map the data stored in key:value pairs format. There is no bound for key value 
+    they can be in any type. Map date can also have null type of values. Map are like 
+    objects with multiple values.
+
+var temp = {
+    "roll_num": "123",
+    "phoneNum": "0987654321",
+    "name": "Pankaj",
+  };
+print(temp);
+
+// Output should be : {roll_num: 123, phoneNum: 0987654321, name: Pankaj}

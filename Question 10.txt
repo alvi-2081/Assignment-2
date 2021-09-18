@@ -1,0 +1,15 @@
+Legal Variables
+
+studend
+TEACHER
+Miami
+array1
+my_Name
+
+Illegal Variables
+
+int 
+ali reh
+1ali
+#fin
+$state
